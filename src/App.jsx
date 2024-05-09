@@ -1,7 +1,9 @@
 import Navbar from "./Navbar";
 import Hero from "./Hero";
 import Skill from "./Skill";
-import About from "./About";
+import About from "./About"
+import Project from "./Project"
+
 
 
 function App() {
@@ -11,7 +13,8 @@ function App() {
       <Navbar />
       <Hero />
       <Skill />
-      <About className="pt-[10rem]" />
+      <About />
+      <Project />
     </>
   )
 }

@@ -10,7 +10,7 @@ import FaGitHub from './assets/github.svg'
 function Skill() {
     return (
         <>
-            <div className="skill-skl flex flex-col justify-center items-center gap-[1rem]">
+            <div className="skill-skl flex flex-col justify-center items-center gap-[1rem] min-h-[50vh] py-[5rem]">
                 <h1 className="text-center text-[#000] font-bold text-[2rem]">Skill</h1>
                 <div className='flex flex-row justify-center items-center gap-[5rem]'>
                     <a href="">
